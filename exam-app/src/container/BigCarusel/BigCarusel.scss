@@ -1,0 +1,36 @@
+
+
+.big-carusel{
+
+	.slick-slider{
+		height: 232px !important;
+		.slick-list{
+			height: auto !important;
+			.slick-track{
+				height: auto !important;
+				.slick-slide{
+					width: 359px !important;
+					height: 238px !important;
+					margin-right: 30px !important;
+					outline: none !important;
+					border: 0 !important;
+				}
+			}
+		}
+		.slick-arrow{
+			display: none !important;
+		}
+		.slick-dots{
+			display: none !important;
+		}
+	}
+	background: rgba(182, 202, 251, 0.159986);
+	box-shadow: inset 0px 21px 13px rgba(182, 202, 251, 0.225402);
+	padding-top: 48px;
+	padding-bottom: 50px;
+	&-inner{
+		display: flex;
+		
+	}
+	
+}

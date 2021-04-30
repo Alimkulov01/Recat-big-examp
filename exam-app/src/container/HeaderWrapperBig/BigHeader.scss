@@ -1,0 +1,17 @@
+
+
+.big-header{
+	background: #FFFFFF;
+	box-shadow: 12px 4px 24px rgba(0, 0, 0, 0.0647645);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	margin: auto;
+	box-sizing: border-box;
+	padding: 17px;
+	&-top{
+		margin-bottom: 16px;
+	}
+}

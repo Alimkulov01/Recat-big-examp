@@ -1,0 +1,79 @@
+
+.card-box{
+	width: 24% ;
+	border-radius: 5px !important;
+	margin-bottom: 25px;
+	text-decoration: none;
+	overflow: hidden !important;
+	
+	&-top{
+		position: relative;
+		&__img{
+			width: 100%;
+			object-fit: cover;
+		}
+	}
+	.active-top{
+		display: none;
+	}
+	&-text{
+		padding-top: 10px;
+		display: flex;
+		flex-direction: column;
+		text-align: left;
+		&__name{
+			font-style: normal;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 19px;
+			color: #000000;
+			display: inline-block;
+			margin-bottom: 7px;
+		}
+		&__date{
+			font-style: normal;
+			font-weight: normal;
+			font-size: 12px;
+			line-height: 14px;
+			color: #4A4A4A;
+			display: inline-block;
+			margin-bottom: 5px;
+		}
+
+		&__price{
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 20px;
+			color: #000000;
+		}
+	
+	}
+
+	&.active{
+		background: rgba(65, 212, 129, 0.225289);
+		.card-box-text{
+			padding-left: 15px;
+			padding-bottom: 11px;
+		}
+		.active-top{
+			display: flex;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 14px;
+			line-height: 17px;
+			color: #000000;
+			transform: rotate(-41deg);
+			background: #41D481;
+			transform: rotate(-40deg);
+			padding: 5px;
+			width: 124px;
+			align-items: center;
+			justify-content: center;
+			position: absolute;
+			top: 20px;
+			left: -30px;
+		}
+	}
+
+}

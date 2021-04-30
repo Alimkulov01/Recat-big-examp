@@ -1,0 +1,65 @@
+.registration{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 168px !important; 
+	&-left{
+
+		&__title{
+			font-style: normal;
+			font-weight: bold;
+			font-size: 24px;
+			line-height: 30px;
+			text-align: center;
+			text-transform: uppercase;
+			color: #000000;
+			margin-bottom: 75px;
+		}
+
+		&-form{
+			display: flex;
+			flex-direction: column;
+			&__input{
+				font-style: normal;
+				font-weight: 500;
+				font-size: 19px;
+				line-height: 23px;
+				color: #C7C7C7;
+				padding: 20px 124px 19px 27px;
+				margin-bottom: 26px;
+				&::placeholder{
+					font-style: normal;
+					font-weight: 500;
+					font-size: 19px;
+					line-height: 23px;
+					color: #C7C7C7
+				}
+				outline: none;
+				background: #FFFFFF;
+				border: 1px solid rgba(151, 151, 151, 0.482592);
+				box-sizing: border-box;
+				border-radius: 5px;
+				&.danger{
+					border: 1px solid red;
+					&::placeholder{
+						color: red;
+					}
+				}
+			}
+
+			&__button{
+				font-style: normal;
+				font-weight: 500;
+				font-size: 17px;
+				line-height: 21px;
+				color: #FFFFFF;
+				background: #41D481;
+				border-radius: 5px;
+				padding: 21px ;
+				border: none;
+				outline: none;
+				
+			}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+.header-top-left{
+	display: flex;
+	align-items: center;
+	&__text{
+		font-style: normal;
+		font-weight: bold;
+		font-size: 15px;
+		line-height: 17px;
+		color: #000000;
+		max-width: 152px;
+		margin-left: 14px;
+	}
+}
+
+
+.header-top-center{
+	display: flex;
+	align-items: center;
+	&__link{
+		font-style: normal;
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 18px;
+		color: #000000;
+		text-decoration: none;
+		padding: 5px 15px;
+	}
+}

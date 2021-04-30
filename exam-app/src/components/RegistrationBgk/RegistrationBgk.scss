@@ -1,0 +1,52 @@
+.regbgk{
+
+	padding: 372px 318px 185px 61px;
+	background: url(../../assets/images/BGK-REG.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	&-box{
+		width: 275px;
+		height: 275px;
+		background: #FFFFFF;
+		border-radius: 220px 220px 220px 25px;
+		
+		box-sizing: border-box;
+		overflow: hidden;
+		
+
+		padding-top: 79px;
+		padding-left: 49px;
+		&__logo{
+			display: block;
+			margin-bottom: 8px;
+		}
+		&__text{
+			font-style: normal;
+			font-weight: bold;
+			font-size: 19px;
+			line-height: 21px;
+			color: #787993;
+			display: block;
+			width: 80%;
+			margin-bottom: 19px;
+		}
+		&__butotn{
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 20px;
+			color: #41D481;
+			background-color: transparent;
+			padding: 9px 18px;
+			border: 2px solid #41D481;
+			box-sizing: border-box;
+			border-radius: 5px;
+			transition: all ease-in-out .1s;
+			&:hover{
+				background-color: #41D481;
+				color: #FFFFFF;
+			}
+		}
+	}
+}
